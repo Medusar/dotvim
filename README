@@ -1,3 +1,7 @@
+
+learned from :
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
 Installation:
 
     git clone https://github.com/Medusar/dotvim.git ~/.vim
@@ -12,3 +16,10 @@ Switch to the `~/.vim` directory, and fetch submodules:
     cd ~/.vim
     git submodule init
     git submodule update
+
+
+to add a new plugin, for example, the https://draculatheme.com/vim/
+```
+	cd ~/.vim
+	git submodule add git@github.com:dracula/vim.git bundle/dracula-theme
+```
