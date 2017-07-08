@@ -19,7 +19,11 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
 
 to add a new plugin, for example, the https://draculatheme.com/vim/
-```
 	cd ~/.vim
 	git submodule add git@github.com:dracula/vim.git bundle/dracula-theme
-```
+
+plugin list:
+
+1. ack.vim
+2. dracula-theme
+3. vim-airline
